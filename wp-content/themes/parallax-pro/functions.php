@@ -165,6 +165,6 @@ function sp_footer_backtotop_text($backtotop) {
 //* Change the footer text
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = '[footer_copyright] &middot; I.E. Pacific - Inc. &middot; <a href="http://www.copishboutique.com">Designed by Copish Boutique</a> &middot;';
+	$creds = '[footer_copyright] &middot; I.E. Pacific, Inc. &middot; <a href="http://www.copishboutique.com">Designed by Copish Boutique</a> &middot;';
 	return $creds;
 }

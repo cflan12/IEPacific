@@ -146,8 +146,8 @@ Defaults
 --------------------------------------------- */
 
 body {
-	background-color: #fff;
-	color: #000;
+	background-color: #f3f3f3;
+	color: #56595b;
 	font-family: 'Sorts Mill Goudy', sans-serif;
 	font-size: 22px;
 	font-weight: 400;
@@ -184,7 +184,7 @@ textarea:focus,
 }
 
 a {
-	color: #f04848;
+	color: #394BBB; 
 	text-decoration: none;
 }
 
@@ -499,6 +499,7 @@ input[type="search"]::-webkit-search-results-button {
 	color: #fff;
 }
 
+
 /* Tables
 --------------------------------------------- */
 
@@ -745,6 +746,8 @@ Common Classes
 .home-odd .widget-title {
 	font-size: 72px;
 	margin-bottom: 40px;
+	text-shadow: 10px 10px 5px #000;
+
 }
 
 /* WordPress
@@ -898,7 +901,7 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background-color: #000;
+	background-color: #56595B; 
 	left: 0;
 	position: fixed;
 	top: 0;
@@ -1088,8 +1091,7 @@ Site Navigation
 	width: 50%;
 }
 
-/* Header Navigation
---------------------------------------------- */
+/* Header Navigation */
 
 .site-header .sub-menu {
 	background-color: #000;
@@ -1188,7 +1190,7 @@ Content Area
 }
 
 .home-even {
-	background-color: #fff;
+	background-color: #f3f3f3;
 }
 
 .home-section-1,
@@ -1626,7 +1628,7 @@ Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-	background-color: #000;
+	background-color: #56595B; /* Changed color */
 	padding: 40px 0;
 	text-align: center;
 }

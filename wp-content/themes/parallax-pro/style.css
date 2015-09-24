@@ -742,13 +742,31 @@ Common Classes
 	font-size: 48px;
 }
 
-.home-even .widget-title,
 .home-odd .widget-title {
 	font-size: 72px;
 	margin-bottom: 40px;
-	text-shadow: 10px 10px 5px #000;
-
+	text-shadow: 10px 10px 5px #000000;
 }
+
+.home-even .widget-title {
+	font-size: 72px;
+	margin-bottom: 40px;
+}
+
+/* remove author and date meta from post categories page */
+.entry-time {
+	display: none;
+}
+
+.entry-author {
+	display: none;
+}
+
+/* by author tag */
+.entry-meta {
+	display: none;
+}
+
 
 /* WordPress
 --------------------------------------------- */
